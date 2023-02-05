@@ -46,7 +46,7 @@ section > div:first-child {
 }
 
 section > div:nth-child(2) {
-    width: 40%;
+    width: 30%;
     height: 8em;
     background-color: white;
     margin-top: -22em;
@@ -59,7 +59,7 @@ section > div:nth-child(2) {
 }
 
 section > div:nth-child(2):hover {
-    border: 5px solid rgb(168, 167, 167);
+    border: 5px solid rgb(187, 221, 251);
 }
 
 section > div:nth-child(2) > button {
@@ -68,7 +68,7 @@ section > div:nth-child(2) > button {
     outline: none;
     border: none;
     border-radius: 1em;
-    background-color: rgb(187, 221, 251);
+    background-color: #005DFF;
     color: white;
     font-size: 1.2em;
     font-weight: bold;
