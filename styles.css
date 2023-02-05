@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: rgb(237, 237, 237);
 }
 
 nav > ul {
@@ -45,13 +46,42 @@ section > div:first-child {
 }
 
 section > div:nth-child(2) {
-    margin-top: -9em;
+    width: 40%;
+    height: 8em;
+    background-color: white;
+    margin-top: -22em;
+    margin-bottom: 6em;
+    border-radius: 2em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section > div:nth-child(2):hover {
+    border: 5px solid rgb(168, 167, 167);
+}
+
+section > div:nth-child(2) > button {
+    width: 10em;
+    height: 4em;
+    outline: none;
+    border: none;
+    border-radius: 1em;
+    background-color: rgb(187, 221, 251);
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+section > div:nth-child(3) {
+    /* margin-top: -9em; */
     background-color: white;
     padding-top: 2em;
     border-radius: 1em;
 }
 
-section > div:nth-child(2) img {
+section > div:nth-child(3) img {
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
 }
