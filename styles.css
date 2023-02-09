@@ -41,7 +41,7 @@ section {
 }
 
 section > div:first-child {
-    width: 70vw;
+    width: 50vw;
     height: 20em;
     background-color: rgb(187, 221, 251);
     border-radius: 1em;
@@ -109,9 +109,57 @@ section > div:nth-child(3) img {
 .grid {
     display: grid;
     grid-template-columns: auto auto;
+    place-items: center;
+    justify-content: center;
+}
+
+.feature-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 6em;
+}
+
+.feature-sec > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1em;
+
+    margin-bottom: 2em;
+}
+
+.feature-sec > div > div > i {
+    font-size: 2em;
+}
+
+
+
+
+
+
+
+.feature-gap {
+    gap: 3em;
 }
 
 .pic-edit {
     width: 30em;
+    border-radius: 2em;
+}
+
+.txt-width {
+    width: 30em;
+}
+
+.about-sec {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6em;
+    margin-top: 4em;
 }
 
