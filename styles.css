@@ -32,6 +32,8 @@ header {
     text-align: center;
 }
 
+/* -------------------------------HERO SECTION */
+
 section {
     flex-direction: column;
     align-items: center;
@@ -46,7 +48,7 @@ section > div:first-child {
 }
 
 section > div:nth-child(2) {
-    width: 30%;
+    width: 16em;
     height: 8em;
     background-color: white;
     margin-top: -22em;
@@ -99,5 +101,17 @@ section > div:nth-child(3) img {
     height: 0.8em;
     background-color: black;
     border-radius: 50%;
+}
+
+
+/* -----------------------------------FEATURES SECTION */
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.pic-edit {
+    width: 30em;
 }
 
