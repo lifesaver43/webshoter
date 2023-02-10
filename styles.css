@@ -41,7 +41,7 @@ section {
 }
 
 section > div:first-child {
-    width: 50vw;
+    width: 40em;
     height: 20em;
     background-color: rgb(187, 221, 251);
     border-radius: 1em;
@@ -66,10 +66,10 @@ section > div:nth-child(2):hover {
 
 section > div:nth-child(2) > button {
     width: 10em;
-    height: 4em;
+    height: 3em;
     outline: none;
     border: none;
-    border-radius: 1em;
+    border-radius: 30px;
     background-color: #005DFF;
     color: white;
     font-size: 1.2em;
@@ -81,11 +81,13 @@ section > div:nth-child(3) {
     background-color: white;
     padding-top: 2em;
     border-radius: 1em;
+    width: 30em;
 }
 
 section > div:nth-child(3) img {
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
+    width: 100%;
 }
 
 .dots-bar {
@@ -120,6 +122,19 @@ section > div:nth-child(3) img {
     align-items: center;
 
     margin-top: 6em;
+    width: 100%;
+    background-color: #005DFF;
+    color: white;
+    gap: 4em;
+    padding: 3em 0;
+}
+
+.feature-sec > h2 {
+    font-size: 2.5em;
+}
+
+.feature-sec > div {
+    gap: 4em;
 }
 
 .feature-sec > div > div {
@@ -133,7 +148,8 @@ section > div:nth-child(3) img {
 }
 
 .feature-sec > div > div > i {
-    font-size: 2em;
+    font-size: 4em;
+
 }
 
 
@@ -142,24 +158,25 @@ section > div:nth-child(3) img {
 
 
 
-.feature-gap {
-    gap: 3em;
+.about-gap {
+    gap: 9em;
 }
 
 .pic-edit {
     width: 30em;
+    height: 18em;
     border-radius: 2em;
 }
 
 .txt-width {
-    width: 30em;
+    width: 20em;
 }
 
 .about-sec {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 6em;
+    gap: 9em;
     margin-top: 4em;
 }
 
