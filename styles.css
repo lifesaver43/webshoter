@@ -185,10 +185,7 @@ section > div:nth-child(3) img {
 }
 
 
-
-
-
-
+/* --------------------------- ABOUT SECTION */
 
 .about-gap {
     gap: 9em;
@@ -201,7 +198,7 @@ section > div:nth-child(3) img {
 }
 
 .txt-width {
-    width: 20em;
+    width: 25em;
 }
 
 .about-sec {
@@ -211,4 +208,73 @@ section > div:nth-child(3) img {
     gap: 9em;
     margin-top: 4em;
 }
+
+.about-sec > div > div > p {
+    font-size: 1.2em;
+    color: gray;
+}
+
+.about-sec > div > div > p:first-child {
+    font-size: 2em;
+    color: black;
+}
+
+/* ----------------------------- EXTENSION SECTION */
+
+.extension {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    background-color: rgb(187, 221, 251);
+    padding-top: 2em;
+    
+}
+
+.extension > div {
+    width: 20em;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+
+    border: 2px solid black;
+    border-radius: 2em;
+    padding: 2em;
+    box-shadow: 15px 15px 0px -4px rgba(0,0,0,1);
+}
+
+.extension i {
+    font-size: 2em;
+}
+
+.extension > div > p {
+    font-size: 1.2em;
+}
+
+.extension > div > p:first-child {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.extension > div > button {
+    width: 8em;
+    font-size: 1.4em;
+    outline: none;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+
+
+/* -------------------------------------FOOTER SECTION */
+footer {
+    width: 100%;
+    background-color: rgb(187, 221, 251);
+    color: white;
+    padding: 2em;
+    padding-top: 2em;
+}
+
+
+
+
 
